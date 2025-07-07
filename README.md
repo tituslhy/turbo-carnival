@@ -2,6 +2,8 @@
 LiteLLM Exploration
 
 ## Setup
+
+### Helm Chart
 Start the Minikube service
 ```
 minkube start 
@@ -31,6 +33,7 @@ proxy_config:
 
 ## Spindown
 
+### Helm Chart
 Uninstall the helm chart
 ```
 helm uninstall lite-helm
