@@ -4,6 +4,16 @@ LiteLLM Exploration
 ## Setup
 
 ### Helm Chart
+Pull the LiteLLM Helm chart
+```
+helm pull oci://ghcr.io/berriai/litellm-helm
+```
+
+Unzip LiteLLM-Helm
+```
+tar -zxvf litellm-helm-0.1.2.tgz
+```
+
 Start the Minikube service
 ```
 minkube start 
