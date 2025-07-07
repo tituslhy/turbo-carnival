@@ -1,7 +1,7 @@
 # turbo-carnival
 LiteLLM Exploration
 
-
+## Setup
 Start the Minikube service
 ```
 minkube start 
@@ -27,4 +27,16 @@ proxy_config:
       litellm_params:
         model: ollama/llama3
         api_base: http://localhost:11434
+```
+
+## Spindown
+
+Uninstall the helm chart
+```
+helm uninstall lite-helm
+```
+
+Stop minikube
+```
+minikube stop
 ```
