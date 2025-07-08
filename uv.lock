@@ -1567,6 +1567,19 @@ wheels = [
 ]
 
 [[package]]
+name = "llama-index-llms-litellm"
+version = "0.5.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "litellm" },
+    { name = "llama-index-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/4d/13/64d3d2db8924eec085c05addaf8279f0ba95b28820ea4f035d0ba77cf711/llama_index_llms_litellm-0.5.1.tar.gz", hash = "sha256:b99460b0d1ef7cf48e02d139dc5358e6818a80b95633ba67d8438c73e180f5ef", size = 10611 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7c/df/87bb97f75390aff4a4a479c329d27dd27d6069451574176eaaf837f67e07/llama_index_llms_litellm-0.5.1-py3-none-any.whl", hash = "sha256:f63c8384d051a9983a86e6f00f79cd9d6a5b81a035a4cff7c1548c3ff4b4d7f0", size = 10881 },
+]
+
+[[package]]
 name = "llama-index-llms-openai"
 version = "0.4.7"
 source = { registry = "https://pypi.org/simple" }
@@ -3010,6 +3023,7 @@ dependencies = [
     { name = "litellm" },
     { name = "llama-index" },
     { name = "llama-index-llms-azure-openai" },
+    { name = "llama-index-llms-litellm" },
     { name = "python-dotenv" },
 ]
 
@@ -3025,6 +3039,7 @@ requires-dist = [
     { name = "litellm", specifier = ">=1.74.0" },
     { name = "llama-index", specifier = ">=0.12.47" },
     { name = "llama-index-llms-azure-openai", specifier = ">=0.3.4" },
+    { name = "llama-index-llms-litellm", specifier = ">=0.5.1" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
