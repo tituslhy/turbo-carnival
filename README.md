@@ -1,6 +1,8 @@
 # turbo-carnival
 LiteLLM Exploration
 
+This GitHub repository is a companion resource for an upcoming Medium article.
+
 ## Setup
 
 ### Helm Chart
