@@ -18,7 +18,7 @@ tar -zxvf litellm-helm-0.1.2.tgz
 
 Start the Minikube service
 ```
-minkube start 
+minikube start 
 ```
 
 Install the LiteLLM helm chart
